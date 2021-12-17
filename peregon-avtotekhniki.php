@@ -1,0 +1,231 @@
+<?php
+$title = 'Перегон автотехники';
+$description = 'Оперативный и надежный автомобильного транспорто на территории Беларуси';
+include_once('header.php');
+?>
+<div class="box__breadcrumbs">
+    <div class="section__size">
+        <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__list-item upper">
+                <a href="/" class="breadcrumbs__link">
+                    Главная
+                </a>
+            </li>
+            <span class="breadcrumbs__list-span">/</span>
+            <li class="breadcrumbs__list-item upper">
+                <a href="/mezhdunarodnye-perevozki.php" class="breadcrumbs__link">
+                    <b>Перегон автотехники</b>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<section id="service-page">
+    <div class="section__size">
+        <div class="box__services-page-data">
+            <div class="services__data-img-block">
+                <img src="img/services/services-data-img-trawl.svg" class="services__data-img"
+                alt="Рисунок с данными">
+            </div>
+            <div class="services__data-block">
+                <ul class="services__data-list">
+                    <div class="services__data-list-item-block">
+                        <i class="fas fa-arrows-alt-h"></i>
+                        <li class="services__data-list-item">
+                            <b>Длина:</b> 12,5 м (12500 мм)
+                        </li>
+                    </div>
+                </ul>
+                <ul class="services__data-list">
+                    <div class="services__data-list-item-block">
+                        <i class="fas fa-arrows-alt-h"></i>
+                        <li class="services__data-list-item">
+                            <b>Ширина:</b> 2,8 м (2800 мм)
+                        </li>
+                    </div>
+                </ul>
+                <ul class="services__data-list">
+                    <div class="services__data-list-item-block">
+                        <i class="fas fa-weight"></i>
+                        <li class="services__data-list-item">
+                            <b>Грузоподъемность:</b> 37 тонн
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="box__services-btn">
+                <a href="/peregon-avtotekhniki" class="services__btn-link upper">Перейти</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- procedure -->
+<section id="procedure">
+    <div class="section__size">
+        <div class="section__head-box">
+            <div class="section__head-line"></div>
+            <div class="section__head-block">
+                <h2 class="section__head2-text">
+                    Как мы работаем
+                </h2>
+                <p class="section__head-description">
+                    Упрощенный порядок работы с нашими клиентами.
+                </p>
+            </div>
+        </div>
+        <div class="procedure__list-block">
+            <ul class="procedure__list">
+                <li class="procedure__list-item">
+                    <div class="procedure__list-item-number">
+                        01
+                    </div>
+                    <img src="img/procedure/data.svg" class="procedure__list-item-img"
+                    alt="Иконка">
+                    <p class="procedure__list-item-text">
+                        Обрабатываем запрос,<br>
+                        уточняем данные.
+                    </p>
+                </li>
+                <li class="procedure__list-item">
+                    <div class="procedure__list-item-number">
+                        02
+                    </div>
+                    <img src="img/procedure/price.svg" class="procedure__list-item-img"
+                    alt="Иконка">
+                    <p class="procedure__list-item-text">
+                        Договариваемся<br>
+                        о стоимости.
+                    </p>
+                </li>
+                <li class="procedure__list-item">
+                    <div class="procedure__list-item-number">
+                        03
+                    </div>
+                    <img src="img/procedure/contract.svg" class="procedure__list-item-img"
+                    alt="Иконка">
+                    <p class="procedure__list-item-text">
+                        Составляем заявку<br>
+                        и заключаем договор.
+                    </p>
+                </li>
+                <li class="procedure__list-item">
+                    <div class="procedure__list-item-number">
+                        04
+                    </div>
+                    <img src="img/procedure/transportation.svg" class="procedure__list-item-img"
+                    alt="Иконка">
+                    <p class="procedure__list-item-text">
+                        Перевозим груз<br>
+                        с оплатой по факту.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="service-page-form">
+    <div class="section__size">
+        <div class="section__head-box">
+            <div class="section__head-line"></div>
+            <div class="section__head-block">
+                <h2 class="section__head2-text">
+                    Расчет доставки
+                </h2>
+                <p class="section__head-description">
+                    Заполните форму и мы рассчитаем стоимость доставки.
+                </p>
+            </div>
+        </div>
+        <div class="box__form-main" id="form__main-akva">
+            <div class="form__main">
+                <form method="post" action="#form__main-akva">
+                    <div class="form__main-block">
+                        <div class="form__main-block-input">
+                            <label for="nameCompany" class="form__main-input-label">
+                                Название компании:
+                            </label><br>
+                            <i class="fas icon-input-form fa-building"></i>
+                            <input type="text" name="nameCompany" class="form__main-input"
+                            placeholder="Прим. ООО «Аква»" required>
+                            <span class="form__main-input-span">*</span>
+                        </div>
+                        <div class="form__main-block-input">
+                            <label for="nameTel" class="form__main-input-label">
+                                Телефон:
+                            </label><br>
+                            <i class="fas icon-input-form fa-phone"></i>
+                            <input type="tel" name="nameTel" class="form__main-input"
+                            placeholder="+375(XX)XXX-XX-XX" required>
+                            <span class="form__main-input-span">*</span>
+                        </div>
+                    </div>
+                    <div class="form__main-block">
+                        <div class="form__main-block-input">
+                            <label for="nameCargo" class="form__main-input-label">
+                                Наименование груза:
+                            </label><br>
+                            <i class="fas icon-input-form fa-boxes"></i>
+                            <input type="text" name="nameCargo" class="form__main-input"
+                            placeholder="Например, фрукты" required>
+                            <span class="form__main-input-span">*</span>
+                        </div>
+                        <div class="form__main-block-input">
+                            <label for="nameAuto" class="form__main-input-label">
+                                Транспорт:
+                            </label><br>
+                            <i class="fas icon-input-form fa-truck"></i>
+                            <input type="text" name="nameAuto" class="form__main-input"
+                            placeholder="Например, 20т." required>
+                            <span class="form__main-input-span">*</span>
+                        </div>
+                    </div>
+                    <div class="form__main-block">
+                        <div class="form__main-block-input">
+                            <label for="nameDeparture" class="form__main-input-label">
+                                Пункт отправления:
+                            </label><br>
+                            <i class="fas icon-input-form fa-map-marker-alt"></i>
+                            <input type="text" name="nameDeparture" class="form__main-input"
+                            placeholder="Например, Минск" required>
+                            <span class="form__main-input-span">*</span>
+                        </div>
+                        <div class="form__main-block-input">
+                            <label for="nameAppointment" class="form__main-input-label">
+                                Пункт назначения:
+                            </label><br>
+                            <i class="fas icon-input-form fa-map-marker-alt"></i>
+                            <input type="text" name="nameAppointment" class="form__main-input"
+                            placeholder="Например, Москва" required>
+                            <span class="form__main-input-span">*</span>
+                        </div>
+                    </div>
+                    <div class="form__main-block">
+                        <div class="form__main-block-input">
+                            <label for="nameMail" class="form__main-input-label">
+                                e-mail:
+                            </label><br>
+                            <i class="fas icon-input-form fa-at"></i>
+                            <input type="email" name="nameMail" class="form__main-input"
+                            placeholder="Введите e-mail" required>
+                            <span class="form__main-input-span">*</span>
+                        </div>
+                        <div class="form__main-block-input">
+                            <label for="nameAdditionally" class="form__main-input-label">
+                                Дополнительно:
+                            </label><br>
+                            <textarea type="text" name="nameAdditionally"
+                            class="form__main-input-textatea"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__main-btn-block">
+                        <button type="submit" class="form__main-btn upper">Отправить</button>
+                    </div>
+                </form>
+                <p class="form__main-error-text">
+                    Ошибка!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<? include_once('footer.php'); ?>
