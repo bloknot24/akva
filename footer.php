@@ -16,17 +16,17 @@
             <div class="footer__first-menu">
                 <ul class="footer__first-menu-list">
                     <li class="footer__first-menu-item">
-                        <a href="#" class="footer__menu-item-link">
+                        <a href="/mezhdunarodnye-perevozki" class="footer__menu-item-link">
                             Международные перевозки
                         </a>
                     </li>
                     <li class="footer__first-menu-item">
-                        <a href="#" class="footer__menu-item-link">
+                        <a href="/perevozki-s-temperaturnym-rezhimom" class="footer__menu-item-link">
                             Перевозки с температурным режимом
                         </a>
                     </li>
                     <li class="footer__first-menu-item">
-                        <a href="#" class="footer__menu-item-link">
+                        <a href="/peregon-avtotekhniki" class="footer__menu-item-link">
                             Перегон автотехники
                         </a>
                     </li>
