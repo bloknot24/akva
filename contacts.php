@@ -24,7 +24,7 @@ include_once('header.php');?>
         <div class="box__contacts">
             <div class="box__contacts-data">
                 <div class="contacts__data-block">
-                    <img src="img/contacts/office.png" alt="Вход в офис">
+                    <img src="img/contacts/office.png" class="contacts__data-block-img" alt="Вход в офис">
                     <div class="contacts__data-phone">
                         <div class="footer__contacts-block">
                             <i class="fas fa-phone-square"></i>
@@ -36,6 +36,12 @@ include_once('header.php');?>
                             <i class="fas fa-phone-square"></i>
                             <a href="tel:+375447777760" class="footer__contacts-link">
                                  +375(44)777-77-60
+                            </a>
+                        </div>
+                        <div class="footer__contacts-block">
+                            <i class="fas fa-phone-square"></i>
+                            <a href="tel:+375447777709" class="footer__contacts-link">
+                                 +375(44)777-77-09
                             </a>
                         </div>
                         <div class="footer__contacts-block">

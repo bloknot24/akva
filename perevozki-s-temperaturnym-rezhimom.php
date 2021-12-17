@@ -13,7 +13,7 @@ include_once('header.php');
             </li>
             <span class="breadcrumbs__list-span">/</span>
             <li class="breadcrumbs__list-item upper">
-                <a href="/mezhdunarodnye-perevozki.php" class="breadcrumbs__link">
+                <a href="/perevozki-s-temperaturnym-rezhimom" class="breadcrumbs__link">
                     <b>Перевозки с температурным режимом</b>
                 </a>
             </li>
@@ -78,6 +78,9 @@ include_once('header.php');
                         </li>
                     </div>
                 </ul>
+            </div>
+            <div class="box__services-btn">
+                <a href="#form__main-akva" class="services__btn-link upper">Заказать</a>
             </div>
         </div>
     </div>
@@ -161,6 +164,13 @@ include_once('header.php');
         </div>
         <div class="box__form-main" id="form__main-akva">
             <div class="form__main">
+                <?php $headService = 'Перевозки с температурным режимом';
+                include_once(MAIL . 'service-shipping.php');
+                if($isSend) : ?>
+                <p class="form__main-success-text">
+                    Письмо успешно отправлено!
+                </p>
+                <? else : ?>
                 <form method="post" action="#form__main-akva">
                     <div class="form__main-block">
                         <div class="form__main-block-input">
@@ -169,7 +179,7 @@ include_once('header.php');
                             </label><br>
                             <i class="fas icon-input-form fa-building"></i>
                             <input type="text" name="nameCompany" class="form__main-input"
-                            placeholder="Прим. ООО «Аква»" required>
+                            placeholder="Прим. ООО «Аква»" required value="<?=$nameCompany?>">
                             <span class="form__main-input-span">*</span>
                         </div>
                         <div class="form__main-block-input">
@@ -178,7 +188,7 @@ include_once('header.php');
                             </label><br>
                             <i class="fas icon-input-form fa-phone"></i>
                             <input type="tel" name="nameTel" class="form__main-input"
-                            placeholder="+375(XX)XXX-XX-XX" required>
+                            placeholder="+375(XX)XXX-XX-XX" required value="<?=$nameTel?>">
                             <span class="form__main-input-span">*</span>
                         </div>
                     </div>
@@ -189,16 +199,16 @@ include_once('header.php');
                             </label><br>
                             <i class="fas icon-input-form fa-boxes"></i>
                             <input type="text" name="nameCargo" class="form__main-input"
-                            placeholder="Например, фрукты" required>
+                            placeholder="Например, фрукты" required value="<?=$nameCargo?>">
                             <span class="form__main-input-span">*</span>
                         </div>
                         <div class="form__main-block-input">
-                            <label for="nameAuto" class="form__main-input-label">
-                                Транспорт:
+                            <label for="nameMail" class="form__main-input-label">
+                                e-mail:
                             </label><br>
-                            <i class="fas icon-input-form fa-truck"></i>
-                            <input type="text" name="nameAuto" class="form__main-input"
-                            placeholder="Например, 20т." required>
+                            <i class="fas icon-input-form fa-at"></i>
+                            <input type="email" name="nameMail" class="form__main-input"
+                            placeholder="Введите e-mail" required value="<?=$nameMail?>">
                             <span class="form__main-input-span">*</span>
                         </div>
                     </div>
@@ -209,7 +219,7 @@ include_once('header.php');
                             </label><br>
                             <i class="fas icon-input-form fa-map-marker-alt"></i>
                             <input type="text" name="nameDeparture" class="form__main-input"
-                            placeholder="Например, Минск" required>
+                            placeholder="Например, Минск" required value="<?=$nameDeparture?>">
                             <span class="form__main-input-span">*</span>
                         </div>
                         <div class="form__main-block-input">
@@ -218,35 +228,27 @@ include_once('header.php');
                             </label><br>
                             <i class="fas icon-input-form fa-map-marker-alt"></i>
                             <input type="text" name="nameAppointment" class="form__main-input"
-                            placeholder="Например, Москва" required>
+                            placeholder="Например, Москва" required value="<?=$nameAppointment?>">
                             <span class="form__main-input-span">*</span>
                         </div>
                     </div>
                     <div class="form__main-block">
                         <div class="form__main-block-input">
-                            <label for="nameMail" class="form__main-input-label">
-                                e-mail:
-                            </label><br>
-                            <i class="fas icon-input-form fa-at"></i>
-                            <input type="email" name="nameMail" class="form__main-input"
-                            placeholder="Введите e-mail" required>
-                            <span class="form__main-input-span">*</span>
-                        </div>
-                        <div class="form__main-block-input">
                             <label for="nameAdditionally" class="form__main-input-label">
                                 Дополнительно:
                             </label><br>
                             <textarea type="text" name="nameAdditionally"
-                            class="form__main-input-textatea"></textarea>
+                            class="form__main-input-textatea"><?=$nameAdditionally?></textarea>
                         </div>
-                    </div>
-                    <div class="form__main-btn-block">
-                        <button type="submit" class="form__main-btn upper">Отправить</button>
+                        <div class="form__main-btn-block">
+                            <input type="submit" name="formServiceShippingTemp" class="form__main-btn upper" value="Отправить">
+                        </div>
                     </div>
                 </form>
                 <p class="form__main-error-text">
-                    Ошибка!
+                    <?=$error?>
                 </p>
+                <? endif; ?>
             </div>
         </div>
     </div>

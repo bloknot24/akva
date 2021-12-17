@@ -1,27 +1,4 @@
-// function hiddenTabServices(i) {
-//     boxService = document.querySelectorAll('.box__services-data');
-//     for(i; i < boxService.length; i++) {
-//         boxService[i].style.display = 'none';
-//     }
-// }
-//
-// function initTabServices() {
-//     hiddenTabServices(1);
-// }
-//
-// initTabServices();
-//
-// let servicesLink = document.querySelectorAll('.services__link-block');
-// servicesLink.forEach(function(element) {
-//     element.onclick = showServices;
-// });
-//
-// function showServices() {
-//     let data = this.getAttribute('data');
-//     console.log(data);
-//     hiddenTabServices(0);
-//     document.querySelector(`.box__services-data[data="${data}"]`).style.display = 'block';
-// }
+// tab-service
 
 let tab = function() {
     let servicesLink = document.querySelectorAll('.services__link-block'),

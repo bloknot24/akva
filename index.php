@@ -423,6 +423,13 @@ include_once('header.php'); ?>
 <div id="call-2-action">
     <div class="section__size">
         <div class="box__form-call-2-action">
+            <?php $headService = 'Быстрая связь';
+            include_once(MAIL . 'fast-call.php');
+            if($isSend) : ?>
+            <p class="form__main-success-text">
+                Письмо успешно отправлено!
+            </p>
+            <? else : ?>
             <p class="box__form-call-2-action-text">
                 Оставьте ваш номер телефона и наш логист свяжется с вами!
             </p>
@@ -433,8 +440,8 @@ include_once('header.php'); ?>
                             Имя:
                         </label>
                         <i class="fas icon-input-form-call fa-user-alt"></i>
-                        <input type="text" name="calName" class="form__main-input"
-                        placeholder="прим. Александр" required>
+                        <input type="text" name="callName" class="form__main-input"
+                        placeholder="прим. Александр" required value="<?=$callName?>">
                         <span class="form__main-input-span">*</span>
                     </div>
                     <div class="form__main-block-input">
@@ -443,17 +450,19 @@ include_once('header.php'); ?>
                         </label>
                         <i class="fas icon-input-form-call fa-phone"></i>
                         <input type="tel" name="callTel" class="form__main-input"
-                        placeholder="+375(XX)XXX-XX-XX" required>
+                        placeholder="+375(XX)XXX-XX-XX" required value="<?=$callTel?>">
                         <span class="form__main-input-span">*</span>
                     </div>
                     <div class="form__call-2-action-block-btn">
-                        <button type="submit" class="form__main-btn upper">Отправить</button>
+                        <input type="submit" name="formFastCall" class="form__main-btn upper" value="Отправить"></input>
                     </div>
                 </div>
+                <p class="form__main-error-text">
+                    <?=$error?>
+                </p>
             </form>
-            <p class="box__form-call-2-action-error">
-                Ошибка!
-            </p>
+
+            <? endif; ?>
         </div>
     </div>
 </div>
