@@ -19,13 +19,13 @@
         <!-- header -->
         <header id="header">
             <div class="section__size">
-                <div class="header_box">
+                <div class="header__box">
                     <div class="header__first-level">
-                        <a href="#" class="header__skype-icon-link">
+                        <a href="Skype:scania3737?chat" class="header__skype-icon-link">
                             <img src="img/header/skype-icon.svg" alt="Иконка"
                             class="header__skype-icon">
                         </a>
-                        <a href="#" class="header__viber-icon-link">
+                        <a href="viber://chat?number=375296858974" class="header__viber-icon-link">
                             <img src="img/header/viber-icon.svg" alt="Иконка"
                             class="header__viber-icon">
                         </a>
@@ -51,6 +51,11 @@
                             </a>
                         </div>
                         <div class="header__menu-block">
+                            <div class="header__menu-mobile-btn" id="menu-hamburger">
+                                <span class="header__menu-mobile-span"></span>
+                                <span class="header__menu-mobile-span"></span>
+                                <span class="header__menu-mobile-span"></span>
+                            </div>
                             <nav class="header__menu-block-nav">
                                 <ul class="header__menu-block-list upper">
                                     <li class="header__menu-block-list-item" id="menu-item-services">
@@ -70,6 +75,64 @@
                                     </li>
                                     <li class="header__menu-block-list-item">
                                         <a href="contacts" class="header__menu-block-list-item-link">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="header__menu-mobile-block-list upper" id="menu-mobile"
+                                style="display: none;">
+                                <div class="header__menu-mobile-block-list-close">
+                                    <b>X</b>
+                                </div>
+                                    <li class="header__menu-mobile-block-list-item"
+                                    id="menu-mobile-item-services">
+                                        <a class="header__menu-mobile-block-list-item-link">
+                                            Услуги <i class="fas fa-sort-down" id="fa-sort1"></i>
+                                        </a>
+                                        <ul class="menu__services-mobile-list" style="display: none;">
+                                            <?php $menu_services = viewMenuServices();
+                                            foreach($menu_services as $menu_service) :?>
+                                            <div class="menu__services-mobile-list-block">
+                                                <a href="<?=$menu_service['link_item']?>"
+                                                    class="menu__services-mobile-list-item-link">
+                                                    <img src="img/<?=$menu_service['menu_icon']?>"
+                                                    class="menu__services-mobile-list-img" alt="Иконка">
+                                                    <li class="menu__services-mobile-list-item">
+                                                        <?=$menu_service['name_item']?>
+                                                    </li>
+                                                </a>
+                                            </div>
+                                            <? endforeach; ?>
+                                        </ul>
+                                    </li>
+                                    <li class="header__menu-mobile-block-list-item">
+                                        <a href="#" class="header__menu-mobile-block-list-item-link">
+                                            Новости
+                                        </a>
+                                    </li>
+                                    <li class="header__menu-mobile-block-list-item"
+                                    id="menu-mobile-item-company">
+                                        <a class="header__menu-mobile-block-list-item-link">
+                                            О компании <i class="fas fa-sort-down" id="fa-sort2"></i>
+                                        </a>
+                                        <ul class="menu__company-mobile-list"  style="display: none;">
+                                            <?php $menu_services = viewMenuCompany();
+                                            foreach($menu_services as $menu_service) :?>
+                                            <div class="menu__company-mobile-list-block">
+                                                <a href="<?=$menu_service['link_item']?>"
+                                                    class="menu__company-mobile-list-item-link">
+                                                    <img src="img/<?=$menu_service['menu_icon']?>"
+                                                    class="menu__company-mobile-list-img" alt="Иконка">
+                                                    <li class="menu__company-mobile-list-item">
+                                                        <?=$menu_service['name_item']?>
+                                                    </li>
+                                                </a>
+                                            </div>
+                                            <? endforeach; ?>
+                                        </ul>
+                                    </li>
+                                    <li class="header__menu-mobile-block-list-item">
+                                        <a href="contacts" class="header__menu-mobile-block-list-item-link">
                                             Контакты
                                         </a>
                                     </li>
@@ -110,7 +173,6 @@
                             </ul>
                         </div>
                         <!-- end-menu-company -->
-
                         <div class="header__bth-call-block">
                             <a href="#call-2-action" class="header__bth-call-block-link upper">
                                 Обратный звонок

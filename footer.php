@@ -1,14 +1,14 @@
 <footer id="footer">
     <div class="section__size">
         <div class="footer__first-level">
-            <div class="header__logo-block">
+            <div class="footer__logo-block">
                 <a href="/" class="header__logo-link">
                     <img src="img/header/logo.svg" alt="Лого"
                     class="header__logo-img">
                     <p class="header__logo-text">АкваНика</p>
                 </a>
                 <div class="footer__confidencial-block">
-                    <a href="#" class="footer__confidencial-link">
+                    <a href="politika-konfidenczialnosti" class="footer__confidencial-link">
                         Политика конфиденциальности
                     </a>
                 </div>
@@ -30,11 +30,11 @@
                             Перегон автотехники
                         </a>
                     </li>
-                    <li class="footer__first-menu-item">
+                    <!-- <li class="footer__first-menu-item">
                         <a href="#" class="footer__menu-item-link">
                             Ремонт техники
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="footer__second-menu">
@@ -54,11 +54,11 @@
                             Отзывы
                         </a>
                     </li>
-                    <li class="footer__second-menu-item">
+                    <!-- <li class="footer__second-menu-item">
                         <a href="#" class="footer__menu-item-link">
                             Вакансии
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="footer__contacts-box">
@@ -104,15 +104,14 @@
             </div>
         </div>
     </div>
-
     <div class="arrow__up" hidden>
         <img src="img/arrow-up.svg" class="arrow__up-img" alt="Стрелка">
     </div>
     <script src="js/arrow-up.js"></script>
-
 </footer>
 <script src="js/menu-desc.js"></script>
-<script src="js/script.js"></script>
+<script src="js/menu-mobile.js"></script>
+<!-- <script src="js/script.js"></script> -->
 <script defer src="js/fontawesome.js"></script>
 </body>
 </html>

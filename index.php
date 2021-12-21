@@ -13,6 +13,10 @@ include_once('header.php'); ?>
                     за 10 минут с полным
                     расчетом стоимости
                 </h1>
+                <h1 class="container__first-head-text-mobile upper">
+                    Заказать перевозку груза
+                    за 10 минут
+                </h1>
                 <div class="container__first-head-link-block">
                     <a href="#" class="container__first-head-link upper">Заказать</a>
                 </div>
@@ -75,6 +79,7 @@ include_once('header.php'); ?>
         </div>
     </div>
 </section>
+<!-- service -->
 <section id="services">
     <div class="section__size">
         <div class="section__head-box">
@@ -311,7 +316,7 @@ include_once('header.php'); ?>
                     Наши преимущества
                 </h2>
                 <p class="section__head-description">
-                    Выбирая нас, вы получаете гарантию.
+                    Выбирая нас, вы получаете гарантию выполнения.
                 </p>
             </div>
         </div>
@@ -435,8 +440,8 @@ include_once('header.php'); ?>
             </p>
             <form method="post" action="#call-2-action">
                 <div class="form__call-2-action-block">
-                    <div class="form__main-block-input">
-                        <label for="calName" class="form__main-input-label">
+                    <div class="form__main-block-index-input">
+                        <label for="calName" class="form__main-input-label form__main-index-label">
                             Имя:
                         </label>
                         <i class="fas icon-input-form-call fa-user-alt"></i>
@@ -444,8 +449,8 @@ include_once('header.php'); ?>
                         placeholder="прим. Александр" required value="<?=$callName?>">
                         <span class="form__main-input-span">*</span>
                     </div>
-                    <div class="form__main-block-input">
-                        <label for="callTel" class="form__main-input-label">
+                    <div class="form__main-block-index-input">
+                        <label for="callTel" class="form__main-input-label form__main-index-label">
                             Телефон:
                         </label>
                         <i class="fas icon-input-form-call fa-phone"></i>
@@ -524,25 +529,72 @@ include_once('header.php'); ?>
                 </p>
             </div>
         </div>
-        <div id="carousel" class="carousel">
-            <div class="gallery">
-                <img src="img/clients/arrow-left.svg"
-                class="arrow box__slider-arrow-right" alt="Правая стрелка">
-                <img src="img/clients/arrow-right.svg"
-                class="arrow box__slider-arrow-left" alt="Левая стрелка">
-                <ul>
-                <?php
-                $files = scandir('img/clients');
-                $images = array_filter($files, function($f) {
-                    return is_file("img/clients/$f") && checkGalleryName($f);
-                });
-                foreach($images as $img) : ?>
-                    <li>
-                        <img src="img/clients/<?=$img?>" class="carousel__clients" alt="Лого">
-                    </li>
-                <? endforeach; ?>
-                </ul>
+        <div class="section__clients-slider">
+            <img src="img/clients/arrow-left.svg"
+            class="clients-arrow-left" alt="Правая стрелка">
+            <img src="img/clients/arrow-right.svg"
+            class="clients-arrow-right" alt="Левая стрелка">
+            <div class="box__clients-slider">
+                <div class="clients__slider-box">
+                    <img src="img/clients/artlogistic.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/asstra.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/belkaspian.png"
+                    class="clients__slider-box-img" alt="Лого">
+                </div>
             </div>
+            <div class="box__clients-slider">
+                <div class="clients__slider-box">
+                    <img src="img/clients/cefey.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/chirko.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/dsu-21.png"
+                    class="clients__slider-box-img" alt="Лого">
+                </div>
+            </div>
+            <div class="box__clients-slider">
+                <div class="clients__slider-box">
+                    <img src="img/clients/kaschtan.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/megatreid.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/meragold.png"
+                    class="clients__slider-box-img" alt="Лого">
+                </div>
+            </div>
+            <div class="box__clients-slider">
+                <div class="clients__slider-box">
+                    <img src="img/clients/santa.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/savuschkin-prod.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/sch.png"
+                    class="clients__slider-box-img" alt="Лого">
+                </div>
+            </div>
+            <div class="box__clients-slider">
+                <div class="clients__slider-box">
+                    <img src="img/clients/sibir-product.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/tels.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/tmk.png"
+                    class="clients__slider-box-img" alt="Лого">
+                </div>
+            </div>
+            <div class="box__clients-slider">
+                <div class="clients__slider-box">
+                    <img src="img/clients/translogistik.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/vosana.png"
+                    class="clients__slider-box-img" alt="Лого">
+                    <img src="img/clients/artlogistic.png"
+                    class="clients__slider-box-img" alt="Лого">
+                </div>
+            </div>
+
         </div>
         <script src="js/slider-clients.js"></script>
     </div>
