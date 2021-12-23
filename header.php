@@ -16,6 +16,14 @@
         <link rel="icon" href="img/general/favicon.svg" type="image/svg+xml">
     </head>
     <body>
+        <!-- preloader -->
+        <div class="preloader">
+            <div class="preloader__row">
+                <div class="preloader__item"></div>
+                <div class="preloader__item"></div>
+            </div>
+        </div>
+        <script src="js/preloader.js"></script>
         <!-- header -->
         <header id="header">
             <div class="section__size">
@@ -64,7 +72,7 @@
                                         </a>
                                     </li>
                                     <li class="header__menu-block-list-item">
-                                        <a href="#" class="header__menu-block-list-item-link">
+                                        <a href="/blog" class="header__menu-block-list-item-link">
                                             Новости
                                         </a>
                                     </li>
@@ -74,7 +82,7 @@
                                         </a>
                                     </li>
                                     <li class="header__menu-block-list-item">
-                                        <a href="contacts" class="header__menu-block-list-item-link">
+                                        <a href="/contacts" class="header__menu-block-list-item-link">
                                             Контакты
                                         </a>
                                     </li>
@@ -106,7 +114,7 @@
                                         </ul>
                                     </li>
                                     <li class="header__menu-mobile-block-list-item">
-                                        <a href="#" class="header__menu-mobile-block-list-item-link">
+                                        <a href="/blog" class="header__menu-mobile-block-list-item-link">
                                             Новости
                                         </a>
                                     </li>
@@ -132,7 +140,7 @@
                                         </ul>
                                     </li>
                                     <li class="header__menu-mobile-block-list-item">
-                                        <a href="contacts" class="header__menu-mobile-block-list-item-link">
+                                        <a href="/contacts" class="header__menu-mobile-block-list-item-link">
                                             Контакты
                                         </a>
                                     </li>
@@ -174,7 +182,7 @@
                         </div>
                         <!-- end-menu-company -->
                         <div class="header__bth-call-block">
-                            <a href="#call-2-action" class="header__bth-call-block-link upper">
+                            <a href="/#call-2-action" class="header__bth-call-block-link upper">
                                 Обратный звонок
                             </a>
                         </div>

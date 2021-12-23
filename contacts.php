@@ -12,7 +12,7 @@ include_once('header.php');?>
             </li>
             <span class="breadcrumbs__list-span">/</span>
             <li class="breadcrumbs__list-item upper">
-                <a href="" class="breadcrumbs__link">
+                <a href="/contacts" class="breadcrumbs__link">
                     <b>Контакты</b>
                 </a>
             </li>
@@ -102,7 +102,7 @@ include_once('header.php');?>
                 </div>
             </div>
             <div class="box__contacts-map">
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acb5183011d736353a460fcaf4434fc3dc9f235f1b4616d09ddefe2d1f7afc045&amp;width=600&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+                <script type="text/javascript" class="box__contacts-ymaps" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acb5183011d736353a460fcaf4434fc3dc9f235f1b4616d09ddefe2d1f7afc045&amp;width=600&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
         </div>
     </div>

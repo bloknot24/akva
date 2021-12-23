@@ -18,7 +18,8 @@ include_once('header.php'); ?>
                     за 10 минут
                 </h1>
                 <div class="container__first-head-link-block">
-                    <a href="#" class="container__first-head-link upper">Заказать</a>
+                    <a href="/mezhdunarodnye-perevozki#service-page-form"
+                    class="container__first-head-link upper">Заказать</a>
                 </div>
             </div>
             <div class="container__first-advantage">
@@ -27,7 +28,7 @@ include_once('header.php'); ?>
                         <p class="container__first-advantage-block-element-text">
                             <span
                             class="container__first-advantage-block-element-text-span">
-                            < 20</span> лет<br>
+                            > 20</span> лет<br>
                             перевозим<br>
                             грузы
                         </p>
@@ -39,7 +40,7 @@ include_once('header.php'); ?>
                         <p class="container__first-advantage-block-element-text">
                             <span
                             class="container__first-advantage-block-element-text-span">
-                            < 500</span><br>
+                            > 500</span><br>
                             клиентов
                         </p>
                         <div class="container__first-advantage-block-element-circle">
@@ -50,7 +51,7 @@ include_once('header.php'); ?>
                         <p class="container__first-advantage-block-element-text">
                             <span
                             class="container__first-advantage-block-element-text-span">
-                            < 10</span> стран<br>
+                            > 10</span> стран<br>
                             география<br>
                             доставок
                         </p>

@@ -8,7 +8,7 @@
                     <p class="header__logo-text">АкваНика</p>
                 </a>
                 <div class="footer__confidencial-block">
-                    <a href="politika-konfidenczialnosti" class="footer__confidencial-link">
+                    <a href="/politika-konfidenczialnosti" class="footer__confidencial-link">
                         Политика конфиденциальности
                     </a>
                 </div>
@@ -40,13 +40,13 @@
             <div class="footer__second-menu">
                 <ul class="footer__second-menu-list">
                     <li class="footer__second-menu-item">
-                        <a href="#" class="footer__menu-item-link">
-                            Сертификаты
+                        <a href="/svidetelstvo" class="footer__menu-item-link">
+                            Свидетельство
                         </a>
                     </li>
                     <li class="footer__second-menu-item">
-                        <a href="#" class="footer__menu-item-link">
-                            Лицензии
+                        <a href="/liczenziya" class="footer__menu-item-link">
+                            Лицензия
                         </a>
                     </li>
                     <li class="footer__second-menu-item">
