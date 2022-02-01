@@ -2,36 +2,39 @@ User-agent: *
 Allow: *js
 Allow: *css
 Disallow: /politika-konfidenczialnosti.php
-Disallow: 404.php
+Disallow: /404.php
 Disallow: /svidetelstvo.php
 Disallow: /liczenziya.php
 Disallow: /core/
 Disallow: /model/
 Disallow: /widgets/
 Disallow: /fonts/
+Dissalow: /cart-technology.php
 
 User-agent: Yandex
 Allow: *js
 Allow: *css
 Disallow: /politika-konfidenczialnosti.php
-Disallow: 404.php
+Disallow: /404.php
 Disallow: /svidetelstvo.php
 Disallow: /liczenziya.php
 Disallow: /core/
 Disallow: /model/
 Disallow: /widgets/
 Disallow: /fonts/
+Dissalow: /cart-technology.php
 
 User-agent: Googlebot
 Allow: *js
 Allow: *css
 Disallow: /politika-konfidenczialnosti.php
-Disallow: 404.php
+Disallow: /404.php
 Disallow: /svidetelstvo.php
 Disallow: /liczenziya.php
 Disallow: /core/
 Disallow: /model/
 Disallow: /widgets/
 Disallow: /fonts/
+Dissalow: /cart-technology.php
 
 Sitemap: https://akvanika.by/sitemap.xml

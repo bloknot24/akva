@@ -472,6 +472,70 @@ include_once('header.php'); ?>
         </div>
     </div>
 </div>
+<!-- technology -->
+<section id="technology">
+    <div class="section__size">
+        <div class="section__head-box">
+            <div class="section__head-line"></div>
+            <div class="section__head-block">
+                <h2 class="section__head2-text">
+                    Наши техника
+                </h2>
+                <p class="section__head-description">
+                    Широкий спектр назначения.
+                </p>
+            </div>
+        </div>
+        <div class="technology__slider-box">
+            <img src="img/technology/arrow-left.svg" class="technology-arrow-left" alt="Стрелка">
+            <img src="img/technology/arrow-right.svg" class="technology-arrow-right" alt="Стрелка">
+            <?php $slider_technologies = viewTechnology();
+            foreach($slider_technologies as $slider_technology) : ?>
+            <div class="technology__slider-block">
+                <div class="technology__slider-block-img">
+                    <img src="img/<?=$slider_technology['img']?>" alt="Техника"
+                    class="technology__slider-img">
+                    <div class="technology__slider-block-link">
+                        <a href="cart-technology.php?id=<?=$slider_technology['id']?>" class="services__btn-link upper">Заказать</a>
+                    </div>
+                </div>
+                <div class="technology__slider-block-description">
+                    <h3 class="technology__slider-description-head">
+                        <?=$slider_technology['name']?><br>
+                        <span class="technology__slider-description-head-span">
+                            <?=$slider_technology['name_technology']?>
+                        </span>
+                    </h3>
+                    <ul class="technology__slider-description-list">
+                        <li class="technology__slider-description-list-item">
+                            <?=$slider_technology['one_characteristic']?>
+                        </li>
+                        <li class="technology__slider-description-list-item">
+                            <?=$slider_technology['two_characteristic']?>
+                        </li>
+                        <li class="technology__slider-description-list-item">
+                            <?=$slider_technology['three_characteristic']?>
+                        </li>
+                        <li class="technology__slider-description-list-item">
+                            <?=$slider_technology['four_characteristic']?>
+                        </li>
+                        <li class="technology__slider-description-list-item">
+                            <?=$slider_technology['five_characteristic']?>
+                        </li>
+                    </ul>
+                    <p class="technology__slider-description-text">
+                        <?=$slider_technology['description']?>
+                    </p>
+                    <div class="technology__slider-block-link-two">
+                        <a href="cart-technology.php?id=<?=$slider_technology['id']?>" class="services__btn-link upper">Заказать</a>
+                    </div>
+                </div>
+            </div>
+            <? endforeach; ?>
+            <script src="js/slider-technology.js"></script>
+        </div>
+    </div>
+</section>
 <!-- reviews -->
 <section id="reviews">
     <div class="section__size">

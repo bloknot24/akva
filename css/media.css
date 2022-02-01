@@ -54,6 +54,9 @@
     #error-404 {
         margin: 0px 15px;
     }
+    #technology {
+        margin: 0px 10px;
+    }
 
 }
 
@@ -85,6 +88,30 @@
     }
     .services__data-list {
         margin-bottom: 12px;
+    }
+    .technology__slider-block {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .technology__slider-block-img {
+        margin: 0px 100px;
+    }
+    .technology__slider-block-link {
+        display: none;
+    }
+    .technology__slider-block-link-two {
+        display: block;
+    }
+    .technology__slider-description-list {
+        margin: 35px auto;
+        width: 350px;
+    }
+    .technology__slider-description-text {
+        margin: 0px auto;
+    }
+    .technology-arrow-right,
+    .technology-arrow-left {
+        top: 500px;
     }
 }
 
@@ -274,6 +301,9 @@
     .reviews-arrow-left, .reviews-arrow-right {
         top: 110px;
     }
+    .technology__cover-block-img {
+        margin: 0px 20px;
+    }
 }
 
 @media screen and (max-width: 758px) {
@@ -356,6 +386,12 @@
     }
     .box__error-404-text {
         font-size: 1rem;
+    }
+    .technology__slider-block-img {
+        margin: auto auto;
+    }
+    .technology__cover {
+        flex-wrap: wrap;
     }
 }
 
@@ -543,6 +579,24 @@
     .box__error-404-text {
         font-size: 0.9rem;
     }
+    .technology__slider-description-text {
+        width: auto;
+        font-size: 0.9rem;
+        margin: 0px 12px;
+    }
+    .technology__slider-img {
+        width: 85%;
+    }
+    .technology__slider-description-head {
+        font-size: 1.15rem;
+        line-height: 33px;
+    }
+    .technology__slider-description-list {
+        width: 350px;
+    }
+    .technology__slider-description-list-item {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -587,6 +641,18 @@
     .form__main-error-text {
         font-size: 0.90rem;
     }
+    .technology__slider-description-head {
+        font-size: 1.05rem;
+    }
+    .technology__slider-description-list {
+        width: 280px;
+    }
+    .technology__slider-description-list-item {
+        font-size: 0.9rem;
+    }
+    .technology__slider-description-text {
+        font-size: 0.85rem;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -619,5 +685,13 @@
     }
     .footer__contacts-link {
         font-size: 1rem;
+    }
+    .technology-arrow-left,
+    .technology-arrow-right {
+        top: 290px;
+    }
+    .technology__cover-block-img {
+        margin: 0px auto;
+        width: 90%;
     }
 }

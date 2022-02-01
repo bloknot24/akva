@@ -623,6 +623,75 @@
     font-weight: 500;
 }
 
+/* --- technology --- */
+
+#technology {
+    padding-bottom: 80px;
+}
+.technology__slider-box {
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 40px;
+}
+.technology-arrow-left {
+    position: absolute;
+    left: 0px;
+    top: 240px;
+}
+.technology-arrow-right {
+    position: absolute;
+    right: 0px;
+    top: 240px;
+}
+.technology-arrow-left:hover,
+.technology-arrow-right:hover {
+    margin-top: -10px;
+    cursor: pointer;
+}
+.technology__slider-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+.technology__slider-block-link {
+    margin-top: 20px;
+}
+.technology__slider-block-link-two {
+    display: none;
+    margin-top: 26px;
+}
+.technology__slider-description-head {
+    font-size: 1.375rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 37px;
+}
+.technology__slider-description-head-span {
+    font-weight: 800;
+}
+.technology__slider-description-list {
+    list-style-type: none;
+    text-align: left;
+    margin: 35px 0px;
+}
+.technology__slider-description-list-item {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+    padding: 5px 0px;
+}
+.technology__slider-description-list-item:nth-child(even) {
+    background: #E9F2FF;
+}
+.technology__slider-description-text {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 518px;
+    text-align: left;
+    line-height: 27px;
+}
+
 /* --- reviews --- */
 
 #reviews {
@@ -893,6 +962,17 @@
     font-weight: 800;
     color: var(--mainColor);
     margin: 1px 7px 0px 7px;
+}
+
+/* --- cart-technology --- */
+
+.technology__cover {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.technology__cover-block-img {
+    width: 300px;
 }
 
 /* --- section-page --- */

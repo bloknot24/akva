@@ -1,6 +1,6 @@
 <?php
 $title = 'Контакты';
-$description = 'Контакты и местоположении нашей компании.';
+$description = 'Контакты и местоположение нашей компании. А так же расчетные счета.';
 include_once('header.php');?>
 <div class="box__breadcrumbs">
     <div class="section__size">
