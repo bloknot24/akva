@@ -13,7 +13,7 @@ include_once('header.php');?>
             <span class="breadcrumbs__list-span">/</span>
             <li class="breadcrumbs__list-item upper">
                 <a href="/blog" class="breadcrumbs__link">
-                    <b>Блог</b>
+                    <b>Новости</b>
                 </a>
             </li>
         </ul>
@@ -22,9 +22,39 @@ include_once('header.php');?>
 <section id="blog">
     <div class="section__size">
         <div class="box__blog">
-            <p class="box__blog-text">На данный момент ни одной статьи нe опубликовано.</p><br>
-            <a href="/" class="upper"
-            style="text-decoration: none; font-weight: 700; color: #2369D9;">На главную!</a>
+            <h1 class="blog__head upper">
+                Новости
+            </h1>
+            <div class="blog__list-articles-block">
+                <?php $viewArticles = viewAllArticles();
+
+                if(!isset($viewArticles)) : ?>
+
+                <div class="blog__list-articles-none center">
+                    Ни одной статьи пока не опубликовано!
+                </div>
+
+                <? else : ?>
+                <?php foreach($viewArticles as $viewArticle) : ?>
+                <a href="article.php?id=<?=$viewArticle['id']?>" class="blog__articles-link">
+                    <div class="blog__articles">
+                        <img src="img/blog/articles/<?=$viewArticle['img_article1']?>"
+                        alt="Картинка" class="blog__articles-img">
+                        <p class="blog__articles-date">
+                            <?=$viewArticle['date_add']?>
+                        </p>
+                        <h3 class="blog__articles-head">
+                            <?=$viewArticle['name_article']?>
+                        </h3>
+                        <p class="blog__articles-description">
+                            <?=mb_substr($viewArticle['text_article1'], 0, 70, 'UTF-8');?>...
+                        </p>
+                    </div>
+                </a>
+                <? endforeach; ?>
+
+                <? endif; ?>
+            </div>
         </div>
     </div>
 </section>

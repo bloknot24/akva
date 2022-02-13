@@ -175,6 +175,9 @@
         font-size: 2rem;
         width: 530px;
     }
+    .blog__head {
+        font-size: 2rem;
+    }
     .container__first-head-link {
         font-size: 1.4rem;
     }
@@ -223,6 +226,9 @@
     }
     #clients {
         padding-bottom: 0px;
+    }
+    .blog__list-articles-block {
+        justify-content: center;
     }
 }
 
@@ -294,6 +300,13 @@
     }
     .box__error-404-img {
         width: 95%;
+    }
+    .blog__articles-content-img,
+    .blog__articles-content-img1 {
+        width: 80%;
+    }
+    .blog__articles-additionally {
+        margin-bottom: 0px;
     }
 }
 
@@ -447,6 +460,10 @@
         width: auto;
         font-size: 1.9rem;
     }
+    .blog__head {
+        font-size: 1.9rem;
+        margin-bottom: 20px;
+    }
     .section__head2-text {
         font-size: 1.48rem;
     }
@@ -597,6 +614,21 @@
     .technology__slider-description-list-item {
         font-size: 1rem;
     }
+    .blog__articles-date {
+        font-size: 0.95rem;
+    }
+    .blog__articles-head {
+        font-size: 1.2rem;
+    }
+    .blog__articles-description {
+        font-size: 0.95rem;
+    }
+    .blog__articles-author {
+        font-size: 0.95rem;
+    }
+    .blog__articles-link-page {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -653,6 +685,21 @@
     .technology__slider-description-text {
         font-size: 0.85rem;
     }
+    .blog__head {
+        font-size: 1.7rem;
+    }
+    .blog__articles-date {
+        font-size: 0.9rem;
+    }
+    .blog__articles-head {
+        font-size: 1.11rem;
+    }
+    .blog__articles-description {
+        font-size: 0.9rem;
+    }
+    .blog__articles-author {
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -693,5 +740,9 @@
     .technology__cover-block-img {
         margin: 0px auto;
         width: 90%;
+    }
+    .blog__articles {
+        margin: 15px auto;
+        width: 280px;
     }
 }

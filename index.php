@@ -63,8 +63,8 @@ include_once('header.php'); ?>
                         <p class="container__first-advantage-block-element-text">
                             <span
                             class="container__first-advantage-block-element-text-span">
-                            28</span><br>
-                            грузовиков<br>
+                            32</span><br>
+                            грузовика<br>
                             ЕВРО-6
                         </p>
                         <div class="container__first-advantage-block-element-circle">
