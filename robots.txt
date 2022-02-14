@@ -9,7 +9,7 @@ Disallow: /core/
 Disallow: /model/
 Disallow: /widgets/
 Disallow: /fonts/
-Dissalow: /cart-technology.php
+Disallow: /cart-technology.php
 
 User-agent: Yandex
 Allow: *js
@@ -22,7 +22,7 @@ Disallow: /core/
 Disallow: /model/
 Disallow: /widgets/
 Disallow: /fonts/
-Dissalow: /cart-technology.php
+Disallow: /cart-technology.php
 
 User-agent: Googlebot
 Allow: *js
@@ -35,6 +35,6 @@ Disallow: /core/
 Disallow: /model/
 Disallow: /widgets/
 Disallow: /fonts/
-Dissalow: /cart-technology.php
+Disallow: /cart-technology.php
 
 Sitemap: https://akvanika.by/sitemap.xml

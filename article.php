@@ -2,7 +2,8 @@
 include('../init.php');
 
 $id = $_GET['id'];
-$viewArticle = viewArticlesOne($id);
+$viewArticles = new Blog();
+$viewArticle = $viewArticles->viewArticlesOne($id);
 
 $title = $viewArticle['name_article'];
 $description = mb_substr($viewArticle['text_article1'], 0, 150, 'UTF-8') . '...';

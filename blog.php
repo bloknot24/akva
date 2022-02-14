@@ -26,7 +26,8 @@ include_once('header.php');?>
                 Новости
             </h1>
             <div class="blog__list-articles-block">
-                <?php $viewArticles = viewAllArticles();
+                <?php $viewArticles = new Blog();
+                $viewArticles = $viewArticles->viewAllArticles();
 
                 if(!isset($viewArticles)) : ?>
 
