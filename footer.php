@@ -54,11 +54,11 @@
                             Отзывы
                         </a>
                     </li>
-                    <!-- <li class="footer__second-menu-item">
-                        <a href="#" class="footer__menu-item-link">
+                    <li class="footer__second-menu-item">
+                        <a href="/vakansii" class="footer__menu-item-link">
                             Вакансии
                         </a>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
             <div class="footer__contacts-box">

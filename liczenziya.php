@@ -23,6 +23,9 @@ include_once('header.php');?>
 <section id="license">
     <div class="section__size">
         <div class="box__license">
+            <h1 class="blog__head upper">
+                Лицензия
+            </h1>
             <img src="img/license/license1.png" class="box__license-img"
             alt="Лицензия" oncontextmenu="return false;">
             <img src="img/license/license2.png" class="box__license-img"

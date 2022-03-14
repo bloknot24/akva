@@ -23,6 +23,9 @@ include_once('header.php');?>
 <section id="certificate">
     <div class="section__size">
         <div class="box__certificate">
+            <h1 class="blog__head upper">
+                Свидетельство
+            </h1>
             <img src="img/certificate/certificate.png" class="box__certificate-img"
             alt="Свидетельство" oncontextmenu="return false;">
         </div>

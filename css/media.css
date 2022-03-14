@@ -406,6 +406,10 @@
     .technology__cover {
         flex-wrap: wrap;
     }
+    .jobs__block-ul {
+        display: block;
+        margin: 0px 20px;
+    }
 }
 
 @media screen and (max-width: 686px) {
@@ -629,6 +633,12 @@
     .blog__articles-link-page {
         font-size: 1rem;
     }
+    .jobs__head {
+        font-size: 1.3rem;
+    }
+    .jobs__list-item-block {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -698,6 +708,12 @@
         font-size: 0.9rem;
     }
     .blog__articles-author {
+        font-size: 0.9rem;
+    }
+    .jobs__head {
+        font-size: 1.2rem;
+    }
+    .jobs__list-item-block {
         font-size: 0.9rem;
     }
 }

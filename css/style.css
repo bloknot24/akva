@@ -1310,3 +1310,39 @@
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+/* --- vakansii --- */
+
+#jobs {
+    margin-top: 20px;
+}
+.jobs__head {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: var(--mainColor);
+    text-align: center;
+}
+.jobs__block-ul {
+    display: flex;
+    justify-content: space-around;
+}
+.jobs__list {
+    list-style-type: none;
+    margin: 30px 0px 25px 0px;
+}
+.jobs__list-item-block {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.jobs__list-item-block svg {
+    color: var(--mainColor);
+}
+.jobs__list-item {
+    margin-left: 10px;
+}
+.jobs__list-item span {
+    color: #636363;
+    font-weight: 700;
+}
