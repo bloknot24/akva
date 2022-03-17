@@ -1224,7 +1224,7 @@
 }
 .blog__list-articles-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .blog__articles {
@@ -1264,7 +1264,7 @@
 }
 .blog__articles-description {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     text-align: left;
     padding: 5px 10px 25px 10px;
 }
