@@ -2,7 +2,7 @@
     <div class="section__size">
         <div class="footer__first-level">
             <div class="footer__logo-block">
-                <a href="/" class="header__logo-link">
+                <a href="/" class="header__logo-link" title="Главная">
                     <img src="img/header/logo.svg" alt="Лого"
                     class="header__logo-img">
                     <p class="header__logo-text">АкваНика</p>
@@ -113,5 +113,29 @@
 <script src="js/menu-mobile.js"></script>
 <!-- <script src="js/script.js"></script> -->
 <script defer src="js/fontawesome.js"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(86984982, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/86984982" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-223781373-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-223781373-1');
+</script>
 </body>
 </html>

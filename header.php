@@ -53,7 +53,7 @@
                     </div>
                     <div class="header__second-level">
                         <div class="header__logo-block">
-                            <a href="/" class="header__logo-link">
+                            <a href="/" class="header__logo-link" title="Главная">
                                 <img src="img/header/logo.svg" alt="Лого"
                                 class="header__logo-img">
                                 <p class="header__logo-text">АкваНика</p>
