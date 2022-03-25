@@ -24,7 +24,7 @@ include_once('header.php');
     <div class="section__size">
         <div class="box__services-page-data">
             <div class="services__data-img-block">
-                <img src="img/services/services-data-img.svg" class="services__data-img"
+                <img src="img/services/services-data-img-temp.svg" class="services__data-img"
                 alt="Рисунок с данными">
             </div>
             <div class="services__data-block">
@@ -67,6 +67,14 @@ include_once('header.php');
                         <i class="fas fa-equals"></i>
                         <li class="services__data-list-item">
                             <b>Кол-во палетов:</b> 66 шт.
+                        </li>
+                    </div>
+                </ul>
+                <ul class="services__data-list">
+                    <div class="services__data-list-item-block">
+                        <i class="fas fa-thermometer-half"></i>
+                        <li class="services__data-list-item">
+                            <b>Температурный режим:</b> +/-30<sup>0</sup>C
                         </li>
                     </div>
                 </ul>

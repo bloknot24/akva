@@ -95,7 +95,7 @@ include_once('header.php'); ?>
             </div>
         </div>
         <div class="box__services-link">
-            <div class="services__link-block is-active" data-tab-name="tab-1">
+            <!-- <div class="services__link-block is-active" data-tab-name="tab-1">
                 <div class="services__link-block-one">
                     <svg width="53" height="23" class="services__link-img" viewBox="0 0 53 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M16.8358 15.9725H32.4267L32.4444 18.3279L52.1138 18.4552V1H16.8358V15.9725Z" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
@@ -110,8 +110,8 @@ include_once('header.php'); ?>
                 <div class="services__link-block-two">
                     Международные перевозки
                 </div>
-            </div>
-            <div class="services__link-block" data-tab-name="tab-2">
+            </div> -->
+            <div class="services__link-block is-active" data-tab-name="tab-2">
                 <div class="services__link-block-one">
                     <svg width="53" height="23" class="services__link-img" viewBox="0 0 53 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M16.8445 15.7608H32.4438L32.4616 18.0848L52.1418 18.2105V1H16.8445V15.7608Z" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
@@ -129,7 +129,7 @@ include_once('header.php'); ?>
                     </svg>
                 </div>
                 <div class="services__link-block-two">
-                    С температурным режимом
+                    Международные перевозки
                 </div>
             </div>
             <div class="services__link-block" data-tab-name="tab-3">
@@ -154,7 +154,7 @@ include_once('header.php'); ?>
                 </div>
             </div>
         </div>
-        <div class="box__services-data is-active tab-1">
+        <!-- <div class="box__services-data is-active tab-1">
             <div class="services__data-img-block">
                 <img src="img/services/services-data-img.svg" class="services__data-img"
                 alt="Рисунок с данными">
@@ -206,8 +206,8 @@ include_once('header.php'); ?>
             <div class="box__services-btn">
                 <a href="/mezhdunarodnye-perevozki" class="services__btn-link upper">Перейти</a>
             </div>
-        </div>
-        <div class="box__services-data tab-2">
+        </div> -->
+        <div class="box__services-data is-active tab-2">
             <div class="services__data-img-block">
                 <img src="img/services/services-data-img-temp.svg" class="services__data-img"
                 alt="Рисунок с данными">
@@ -265,8 +265,9 @@ include_once('header.php'); ?>
                 </ul>
             </div>
             <div class="box__services-btn">
-                <a href="/perevozki-s-temperaturnym-rezhimom"
+                <a href="/mezhdunarodnye-perevozki"
                 class="services__btn-link upper">Перейти</a>
+                <!--/perevozki-s-temperaturnym-rezhimom-->
             </div>
         </div>
         <div class="box__services-data tab-3">
