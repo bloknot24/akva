@@ -8,11 +8,14 @@ $viewArticle = $viewArticles->viewArticlesOne($id);
 $title = $viewArticle['name_article'];
 $description = mb_substr($viewArticle['text_article1'], 0, 150, 'UTF-8') . '...';
 
-include_once('header.php');
+if(!isset($viewArticle['id'])) {
+    header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found");
+    header("Location: https://akvanika.by/404");
+    die;
+}
 
-if(!isset($viewArticle['id'])) : ?>
-    <script>window.location.replace("https://akvanika.by/404.php");</script>
-<? endif; ?>
+include_once('header.php'); ?>
+
 <div class="box__breadcrumbs">
     <div class="section__size">
         <ul class="breadcrumbs__list">

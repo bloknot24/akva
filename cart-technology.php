@@ -1,13 +1,19 @@
 <?php
+include_once('../init.php');
+
 $title = 'Заказ техники';
 $description = 'Данная страница содержит форму предварительного заказа';
-include_once('header.php');
-$id = $_GET['id'];
-$viewsTechnology = viewTechnologyOne($id); ?>
 
-<? if(!isset($viewsTechnology['id'])) : ?>
-    <script>window.location.replace("https://akvanika.by/404.php");</script>
-<? endif; ?>
+$id = $_GET['id'];
+$viewsTechnology = viewTechnologyOne($id);
+
+if(!isset($viewsTechnology['id'])) {
+    header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found");
+    header("Location: https://akvanika.by/404");
+    die;
+}
+
+include_once('header.php'); ?>
 
 <div class="box__breadcrumbs">
     <div class="section__size">
