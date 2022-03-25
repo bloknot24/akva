@@ -1,6 +1,7 @@
 <?php  declare(strict_types=1);
        error_reporting(-1);
-       include_once('../init.php'); ?>
+       include_once('../init.php');
+       $viewIndex = new Index(); ?>
 <!DOCTYPE html>
 <html lang="ru">
     <head>
@@ -99,7 +100,7 @@
                                             Услуги <i class="fas fa-sort-down" id="fa-sort1"></i>
                                         </a>
                                         <ul class="menu__services-mobile-list" style="display: none;">
-                                            <?php $menu_services = viewMenuServices();
+                                            <?php $menu_services = $viewIndex->viewMenuServices();
                                             foreach($menu_services as $menu_service) :?>
                                             <div class="menu__services-mobile-list-block">
                                                 <a href="<?=$menu_service['link_item']?>"
@@ -125,7 +126,7 @@
                                             О компании <i class="fas fa-sort-down" id="fa-sort2"></i>
                                         </a>
                                         <ul class="menu__company-mobile-list"  style="display: none;">
-                                            <?php $menu_services = viewMenuCompany();
+                                            <?php $menu_services = $viewIndex->viewMenuCompany();
                                             foreach($menu_services as $menu_service) :?>
                                             <div class="menu__company-mobile-list-block">
                                                 <a href="<?=$menu_service['link_item']?>"
@@ -151,7 +152,7 @@
                         <!-- menu-services -->
                         <div class="box__menu-services" style="display: none;">
                             <ul class="menu__services-list">
-                                <?php $menu_services = viewMenuServices();
+                                <?php $menu_services = $viewIndex->viewMenuServices();
                                 foreach($menu_services as $menu_service) :?>
                                 <div class="menu__services-list-block">
                                     <a href="<?=$menu_service['link_item']?>" class="menu__services-list-item-link">
@@ -168,7 +169,7 @@
                         <!-- menu-company -->
                         <div class="box__menu-company" style="display: none;">
                             <ul class="menu__company-list">
-                                <?php $menu_services = viewMenuCompany();
+                                <?php $menu_services = $viewIndex->viewMenuCompany();
                                 foreach($menu_services as $menu_service) :?>
                                 <div class="menu__company-list-block">
                                     <a href="<?=$menu_service['link_item']?>" class="menu__company-list-item-link">

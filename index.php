@@ -264,6 +264,14 @@ include_once('header.php'); ?>
                     </div>
                 </ul>
             </div>
+            <div class="box__services-img">
+                <img src="img/services/additionally-one.png"
+                class="box__services-img-image" alt="Фото">
+                <img src="img/services/additionally-two.png"
+                class="box__services-img-image" alt="Фото">
+                <img src="img/services/additionally-three.png"
+                class="box__services-img-image" alt="Фото">
+            </div>
             <div class="box__services-btn">
                 <a href="/mezhdunarodnye-perevozki"
                 class="services__btn-link upper">Перейти</a>
@@ -490,7 +498,7 @@ include_once('header.php'); ?>
         <div class="technology__slider-box">
             <img src="img/technology/arrow-left.svg" class="technology-arrow-left" alt="Стрелка">
             <img src="img/technology/arrow-right.svg" class="technology-arrow-right" alt="Стрелка">
-            <?php $slider_technologies = viewTechnology();
+            <?php $slider_technologies = $viewIndex->viewTechnology();
             foreach($slider_technologies as $slider_technology) : ?>
             <div class="technology__slider-block">
                 <div class="technology__slider-block-img">
@@ -554,7 +562,7 @@ include_once('header.php'); ?>
         <div class="reviews__box">
             <img src="img/reviews/arrow-left.svg" class="reviews-arrow-left" alt="Стрелка">
             <img src="img/reviews/arrow-right.svg" class="reviews-arrow-right" alt="Стрелка">
-            <?php $slider_reviews = viewSliderReviews();
+            <?php $slider_reviews = $viewIndex->viewSliderReviews();
             foreach($slider_reviews as $slider_review) : ?>
             <div class="reviews__box-slider">
                 <div class="reviews__box-descriptions">

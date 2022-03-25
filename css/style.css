@@ -496,11 +496,23 @@
     padding: 4px 17px;
     border: 3px solid var(--mainColor);
 }
+.box__services-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 40px auto;
+}
+.box__services-img-image {
+    border-radius: 5px;
+    margin: 0px 10px 20px 10px;
+}
+.box__services-img-image:hover {
+    box-shadow: 0px 10px 21px -12px #000000;
+}
 
 /* --- advantage --- */
 
 #advantage {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 90px;
 }
 .section__advantage-list-box {

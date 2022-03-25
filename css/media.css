@@ -76,6 +76,10 @@
     #procedure {
         padding-bottom: 0px;
     }
+    .box__services-img {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 1115px) {
@@ -456,6 +460,12 @@
     .box__license-img {
         width: 90%;
     }
+    .box__services-img-image:nth-child(3) {
+        margin: 0px 10px 0px 10px;
+    }
+    .box__services-btn {
+        margin: 20px auto 15px auto;
+    }
 
 }
 
@@ -482,6 +492,9 @@
     }
     .footer__logo-block {
         margin: 14px auto;
+    }
+    #service-page {
+        padding: 20px 0px 50px 0px;
     }
 }
 
@@ -715,6 +728,13 @@
     }
     .jobs__list-item-block {
         font-size: 0.9rem;
+    }
+    .box__services-img {
+        display: block;
+        text-align: center;
+    }
+    .box__services-img-image {
+        width: 90%;
     }
 }
 

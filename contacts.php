@@ -77,7 +77,7 @@ include_once('header.php');?>
                 </div>
                 <div class="contacts__data-check-block">
                     <button class="contacts__data-check-link">
-                        Расчетные счета<i class="fas contacts__data-check-icon fa-sort-down"></i>
+                        Расчетные счета<i class="fas contacts__data-check-icon fa-sort-down" id="fa-sort-list"></i>
                     </button>
                     <ul class="contacts__data-check-list" style="display: none;">
                         <li class="contacts__data-check-list-item">

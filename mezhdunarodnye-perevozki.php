@@ -79,6 +79,14 @@ include_once('header.php');
                     </div>
                 </ul>
             </div>
+            <div class="box__services-img">
+                <img src="img/services/additionally-one.png"
+                class="box__services-img-image" alt="Фото">
+                <img src="img/services/additionally-two.png"
+                class="box__services-img-image" alt="Фото">
+                <img src="img/services/additionally-three.png"
+                class="box__services-img-image" alt="Фото">
+            </div>
             <div class="box__services-btn">
                 <a href="#form__main-akva" class="services__btn-link upper">Заказать</a>
             </div>
