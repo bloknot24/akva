@@ -1,5 +1,4 @@
-<?php
-$title = 'Аква Ника - автомобильные грузоперевозки';
+<?php $title = 'Аква Ника - автомобильные грузоперевозки';
 $description = 'Аква Ника – компания по доставке грузов автомобильным транспортом на рынках Беларуси, России, Европы и стран Азии.';
 include_once('header.php'); ?>
 
@@ -237,7 +236,7 @@ include_once('header.php'); ?>
                     <div class="services__data-list-item-block">
                         <i class="fas fa-weight"></i>
                         <li class="services__data-list-item">
-                            <b>Макс. масса:</b> 21 тонна
+                            <b>Макс. масса:</b> 22 тонны
                         </li>
                     </div>
                 </ul>

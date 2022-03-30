@@ -1,8 +1,7 @@
-<?php
-$title = 'Политика конфиденциальности';
+<?php $title = 'Политика конфиденциальности';
 $description = 'На этой странице приведена политика конфиденциальности нашей компании.';
-include_once('header.php');
-?>
+include_once('header.php'); ?>
+
 <div class="box__breadcrumbs">
     <div class="section__size">
         <ul class="breadcrumbs__list">

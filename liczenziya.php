@@ -1,7 +1,7 @@
-<?php
-$title = 'Лицензия';
+<?php $title = 'Лицензия';
 $description = 'Лицензия нашей компании, подтверждающая нашу деятельность';
-include_once('header.php');?>
+include_once('header.php'); ?>
+
 <div class="box__breadcrumbs">
     <div class="section__size">
         <ul class="breadcrumbs__list">

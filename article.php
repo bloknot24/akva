@@ -1,5 +1,4 @@
-<?php
-include('../init.php');
+<?php include('../init.php');
 
 $id = $_GET['id'];
 $viewArticles = new Blog();

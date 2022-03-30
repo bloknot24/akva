@@ -1,8 +1,7 @@
-<?php
-$title = 'Международные перевозки';
+<?php $title = 'Международные перевозки';
 $description = 'Оперативная и надежная перевозка грузов автомобильным транспортом на рынках Беларуси, России, Европы и стран Азии';
-include_once('header.php');
-?>
+include_once('header.php'); ?>
+
 <div class="box__breadcrumbs">
     <div class="section__size">
         <ul class="breadcrumbs__list">
@@ -52,7 +51,7 @@ include_once('header.php');
                     <div class="services__data-list-item-block">
                         <i class="fas fa-weight"></i>
                         <li class="services__data-list-item">
-                            <b>Макс. масса:</b> 21 тонна
+                            <b>Макс. масса:</b> 22 тонны
                         </li>
                     </div>
                 </ul>

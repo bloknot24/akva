@@ -1,8 +1,7 @@
-<?php
-$title = 'Перегон автотехники';
+<?php $title = 'Перегон автотехники';
 $description = 'Оперативный и надежный автомобильного транспорто на территории Беларуси';
-include_once('header.php');
-?>
+include_once('header.php'); ?>
+
 <div class="box__breadcrumbs">
     <div class="section__size">
         <ul class="breadcrumbs__list">

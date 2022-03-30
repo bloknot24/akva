@@ -1,7 +1,6 @@
 <?php  declare(strict_types=1);
        error_reporting(-1);
-       include_once('../init.php');
-       $viewIndex = new Index(); ?>
+       include_once('../init.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
     <head>

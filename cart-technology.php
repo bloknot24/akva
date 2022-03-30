@@ -1,11 +1,10 @@
-<?php
-include_once('../init.php');
+<?php include_once('../init.php');
 
 $title = 'Заказ техники';
 $description = 'Данная страница содержит форму предварительного заказа';
 
 $id = $_GET['id'];
-$viewsTechnology = viewTechnologyOne($id);
+$viewsTechnology = $viewIndex->viewTechnologyOne($id);
 
 if(!isset($viewsTechnology['id'])) {
     header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found");

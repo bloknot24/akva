@@ -1,7 +1,6 @@
-<?php
-$title = '404';
+<?php $title = '404';
 $description = 'Страница ошибки 404';
-include_once('header.php');?>
+include_once('header.php'); ?>
 
 <section id="error-404">
     <div class="section__size">

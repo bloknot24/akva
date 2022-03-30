@@ -1,7 +1,7 @@
-<?php
-$title = 'Свидетельство';
+<?php $title = 'Свидетельство';
 $description = 'Свидетельство нашей компании, подтверждающее нашу деятельность';
-include_once('header.php');?>
+include_once('header.php'); ?>
+
 <div class="box__breadcrumbs">
     <div class="section__size">
         <ul class="breadcrumbs__list">
