@@ -487,7 +487,7 @@ include_once('header.php'); ?>
             <div class="section__head-line"></div>
             <div class="section__head-block">
                 <h2 class="section__head2-text">
-                    Наши техника
+                    Наша техника
                 </h2>
                 <p class="section__head-description">
                     Широкий спектр назначения.
@@ -529,6 +529,9 @@ include_once('header.php'); ?>
                         </li>
                         <li class="technology__slider-description-list-item">
                             <?=$slider_technology['five_characteristic']?>
+                        </li>
+                        <li class="technology__slider-description-list-item">
+                            <b>Стоимость:</b> договорная
                         </li>
                     </ul>
                     <p class="technology__slider-description-text">
