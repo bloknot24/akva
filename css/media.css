@@ -57,7 +57,6 @@
     #technology {
         margin: 0px 10px;
     }
-
 }
 
 @media screen and (max-width: 1140px) {
@@ -116,6 +115,9 @@
     .technology-arrow-right,
     .technology-arrow-left {
         top: 500px;
+    }
+    .contacts__data-block-img {
+        display: none;
     }
 }
 

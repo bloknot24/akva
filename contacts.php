@@ -29,19 +29,19 @@ include_once('header.php'); ?>
                         <div class="footer__contacts-block">
                             <i class="fas fa-phone-square"></i>
                             <a href="tel:+375296858974" class="footer__contacts-link">
-                                +375(29)685-89-74
+                                +375(29)685-89-74 - <i>Логист</i>
                             </a>
                         </div>
                         <div class="footer__contacts-block">
                             <i class="fas fa-phone-square"></i>
                             <a href="tel:+375447777760" class="footer__contacts-link">
-                                 +375(44)777-77-60
+                                 +375(44)777-77-60 - <i>Директор</i>
                             </a>
                         </div>
                         <div class="footer__contacts-block">
                             <i class="fas fa-phone-square"></i>
                             <a href="tel:+375447777709" class="footer__contacts-link">
-                                 +375(44)777-77-09
+                                 +375(44)777-77-09 - <i>Директор</i>
                             </a>
                         </div>
                         <div class="footer__contacts-block">
