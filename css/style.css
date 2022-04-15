@@ -22,12 +22,20 @@
     margin-right: 6px;
     margin-top: 3px;
 }
+.header__instagram-icon-link {
+    margin: 5px 16px 0px 0px;
+    text-decoration: none;
+}
+.header__instagram-icon-link:hover {
+    background: #ff7239;
+    border-radius: 15px;
+}
 .header__skype-icon-link {
     margin: 5px 14px 0px 0px;
     text-decoration: none;
 }
 .header__skype-icon-link:hover {
-    background: #01a8e7;
+    background: #b8d9e6;
     border-radius: 15px;
 }
 .header__viber-icon-link {
@@ -1310,6 +1318,13 @@
 }
 .blog__articles-link-page:hover {
     color: #7299d8;
+}
+.articles__block-video {
+    margin: 0px auto;
+    text-align: center;
+}
+.articles__block-video video {
+    max-width: 800px;
 }
 
 /* --- 404 error --- */

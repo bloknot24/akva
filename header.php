@@ -30,6 +30,10 @@
             <div class="section__size">
                 <div class="header__box">
                     <div class="header__first-level">
+                        <a href="https://www.instagram.com/akvanika/" class="header__instagram-icon-link">
+                            <img src="img/header/instagram-icon.svg" alt="Иконка"
+                            class="header__instagram-icon">
+                        </a>
                         <a href="Skype:scania3737?chat" class="header__skype-icon-link">
                             <img src="img/header/skype-icon.svg" alt="Иконка"
                             class="header__skype-icon">
@@ -38,6 +42,7 @@
                             <img src="img/header/viber-icon.svg" alt="Иконка"
                             class="header__viber-icon">
                         </a>
+
                         <div class="header__contacts-block">
                             <i class="fas fa-envelope" style="padding-top: 2px;"></i>
                             <a href="mailto:mail@akvanika.by" class="header__contacts-mail-link">

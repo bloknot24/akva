@@ -20,11 +20,11 @@
                             Международные перевозки
                         </a>
                     </li>
-                    <li class="footer__first-menu-item">
+                    <!-- <li class="footer__first-menu-item">
                         <a href="/perevozki-s-temperaturnym-rezhimom" class="footer__menu-item-link">
                             Перевозки с температурным режимом
                         </a>
-                    </li>
+                    </li> -->
                     <li class="footer__first-menu-item">
                         <a href="/peregon-avtotekhniki" class="footer__menu-item-link">
                             Перегон автотехники

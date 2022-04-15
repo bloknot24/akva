@@ -61,7 +61,7 @@ include_once('header.php'); ?>
         <? if(!$viewArticle['text_article2'] == NULL): ?>
             <div class="blog__content-block">
                 <div class="blog__articles-description">
-                    <?=$viewArticle['img_article2']?>
+                    <?=$viewArticle['text_article2']?>
                 </div>
             </div>
         <? endif; ?>

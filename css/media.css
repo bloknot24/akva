@@ -274,6 +274,9 @@
     .box__contacts-map {
         margin-top: 25px;
     }
+    .articles__block-video video {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 888px) {
@@ -496,20 +499,20 @@
     #service-page {
         padding: 20px 0px 50px 0px;
     }
-}
-
-@media screen and (max-width: 545px) {
+    .header__viber-icon-link {
+        margin: 5px 0px 0px 0px;
+    }
     .header__first-level {
         display: block;
         text-align: center;
         padding: 15px 0px;
     }
-    .header__viber-icon-link {
-        margin: 5px 0px 0px 0px;
-    }
     .header__contacts-mail-link {
         margin-right: 0px;
     }
+}
+
+@media screen and (max-width: 545px) {
     .header__contacts-block {
         margin-top: 10px;
     }
@@ -584,7 +587,8 @@
         font-size: 0.9rem;
     }
     .header__skype-icon,
-    .header__viber-icon {
+    .header__viber-icon,
+    .header__instagram-icon {
         width: 20px;
     }
     .header__first-level {
