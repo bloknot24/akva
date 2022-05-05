@@ -474,6 +474,20 @@
 
 }
 
+@media screen and (max-width: 624px) {
+    .header__first-level {
+        display: block;
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .header__contacts-mail-link {
+        margin-right: 0px;
+    }
+    .header__telegram-icon-link {
+        margin: 5px 0px 0px 0px;
+    }
+}
+
 @media screen and (max-width: 578px) {
     .container__first-head-text {
         width: auto;
@@ -500,17 +514,6 @@
     }
     #service-page {
         padding: 20px 0px 50px 0px;
-    }
-    .header__viber-icon-link {
-        margin: 5px 0px 0px 0px;
-    }
-    .header__first-level {
-        display: block;
-        text-align: center;
-        padding: 15px 0px;
-    }
-    .header__contacts-mail-link {
-        margin-right: 0px;
     }
 }
 
@@ -590,7 +593,8 @@
     }
     .header__skype-icon,
     .header__viber-icon,
-    .header__instagram-icon {
+    .header__instagram-icon,
+    .header__telegram-icon {
         width: 20px;
     }
     .header__first-level {

@@ -42,6 +42,10 @@
                             <img src="img/header/viber-icon.svg" alt="Иконка"
                             class="header__viber-icon">
                         </a>
+                        <a href="https://t.me/A_k_v_a_n_i_k_a" class="header__telegram-icon-link">
+                            <img src="img/header/telegram-icon.svg" alt="Иконка"
+                            class="header__telegram-icon">
+                        </a>
 
                         <div class="header__contacts-block">
                             <i class="fas fa-envelope" style="padding-top: 2px;"></i>

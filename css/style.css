@@ -40,10 +40,18 @@
 }
 .header__viber-icon-link {
     text-decoration: none;
-    margin: 5px 45px 0px 0px;
+    margin: 5px 14px 0px 0px;
 }
 .header__viber-icon-link:hover {
     background: #9b45c7;
+    border-radius: 15px;
+}
+.header__telegram-icon-link {
+    text-decoration: none;
+    margin: 5px 45px 0px 0px;
+}
+.header__telegram-icon-link:hover {
+    background: #66b3d6;
     border-radius: 15px;
 }
 .header__contacts-mail-link, .header__contacts-phone-link {
@@ -167,7 +175,7 @@
     border-radius: 10px;
     position: absolute;
     top: 75px;
-    right: 402px;
+    right: 397px;
     background: #fff;
     padding: 25px 15px 5px 15px;
     width: 215px;

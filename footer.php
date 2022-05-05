@@ -76,8 +76,8 @@
                 </div>
                 <div class="footer__contacts-block">
                     <i class="fas fa-fax"></i>
-                    <a href="tel:80235327728" class="footer__contacts-link">
-                         8-02353-277-28
+                    <a href="tel:80235353628" class="footer__contacts-link">
+                         8-02353-536-28
                     </a>
                 </div>
                 <div class="footer__contacts-block">
