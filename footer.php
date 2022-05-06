@@ -59,6 +59,11 @@
                             Вакансии
                         </a>
                     </li>
+                    <li class="footer__second-menu-item">
+                        <a href="/nagrady" class="footer__menu-item-link">
+                            Награды
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="footer__contacts-box">
