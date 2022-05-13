@@ -1,5 +1,9 @@
 <?php include('../init.php');
 
+if(!isset($_COOKIE['views'])) {
+    setcookie('views', 'int');
+}
+
 $id = $_GET['id'];
 $viewArticles = new Blog();
 $viewArticle = $viewArticles->viewArticlesOne($id);
@@ -66,14 +70,27 @@ include_once('header.php'); ?>
             </div>
         <? endif; ?>
         <div class="blog__articles-additionally">
-            <p class="blog__articles-date">
-                <?=$viewArticle['date_add']?>
-            </p>
+
+
+            <?php if(!isset($_COOKIE['views'])) {
+                $viewArticles->addViews($id);
+            } ?>
+
+            <div class="blog__articles-block-info">
+                <p class="blog__articles-date">
+                    <?=$viewArticle['date_add']?>
+                </p>
+                <p class="box__articles-counter">
+                    <i class="fas fa-eye"></i> <?=$viewArticle['views'];?>
+                </p>
+            </div>
+
             <p class="blog__articles-author">
                 <b>Автор:</b> <a href="<?=$viewArticle['author_link']?>"
                 class="blog__articles-link-page" rel="nofollow"
                 ><?=$viewArticle['author_name']?></a>
             </p>
+
         </div>
     </div>
 </section>

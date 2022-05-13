@@ -1316,6 +1316,20 @@
     text-align: left;
     padding: 5px 10px 25px 10px;
 }
+.blog__articles-block-info {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-eye {
+    color: var(--mainColor);
+    font-size: 1.1rem;
+    margin-right: 3px;
+}
+.box__articles-counter {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-top: 14px;
+}
 .blog__head-block {
     text-align: center;
     margin: 20px auto 30px auto;
