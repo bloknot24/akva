@@ -1,5 +1,10 @@
 <?php $title = 'Блог';
 $description = 'Блог нашей компании, где публикуются наши новости, статьи, полезные материалы.';
+
+if(isset($_COOKIE['views'])) {
+    setcookie('views', null, -1, '/');
+}
+
 include_once('header.php'); ?>
 
 <div class="box__breadcrumbs">
