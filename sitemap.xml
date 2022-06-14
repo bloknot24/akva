@@ -9,57 +9,82 @@
 
 <url>
   <loc>https://akvanika.by/</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://akvanika.by/blog</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://akvanika.by/contacts</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://akvanika.by/mezhdunarodnye-perevozki</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://akvanika.by/peregon-avtotekhniki</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://akvanika.by/svidetelstvo</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://akvanika.by/liczenziya</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://akvanika.by/vakansii</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://akvanika.by/nagrady</loc>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://akvanika.by/politika-konfidenczialnosti</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://akvanika.by/article.php?id=1</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <loc>https://akvanika.by/article.php?id=6</loc>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://akvanika.by/article.php?id=5</loc>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://akvanika.by/article.php?id=4</loc>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://akvanika.by/article.php?id=3</loc>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://akvanika.by/article.php?id=2</loc>
-  <lastmod>2022-03-25T08:57:54+00:00</lastmod>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://akvanika.by/article.php?id=1</loc>
+  <lastmod>2022-06-14T18:15:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
