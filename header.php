@@ -80,6 +80,23 @@
                                         <a href="#" class="header__menu-block-list-item-link">
                                             Услуги <i class="fas fa-sort-down"></i>
                                         </a>
+                                        <!-- menu-services -->
+                                        <div class="box__menu-services">
+                                            <ul class="menu__services-list">
+                                            <?php $menu_services = $viewIndex->viewMenuServices();
+                                            foreach($menu_services as $menu_service) :?>
+                                                <div class="menu__services-list-block">
+                                                    <a href="<?=$menu_service['link_item']?>" class="menu__services-list-item-link">
+                                                        <img src="img/<?=$menu_service['menu_icon']?>" class="menu__services-list-img" alt="Иконка">
+                                                        <li class="menu__services-list-item">
+                                                            <?=$menu_service['name_item']?>
+                                                        </li>
+                                                    </a>
+                                                </div>
+                                            <? endforeach; ?>
+                                            </ul>
+                                        </div>
+                                        <!-- end-menu-services -->
                                     </li>
                                     <li class="header__menu-block-list-item">
                                         <a href="/blog" class="header__menu-block-list-item-link">
@@ -90,6 +107,23 @@
                                         <a href="#" class="header__menu-block-list-item-link">
                                             О компании <i class="fas fa-sort-down"></i>
                                         </a>
+                                        <!-- menu-company -->
+                                        <div class="box__menu-company">
+                                            <ul class="menu__company-list">
+                                                <?php $menu_services = $viewIndex->viewMenuCompany();
+                                                foreach($menu_services as $menu_service) :?>
+                                                <div class="menu__company-list-block">
+                                                    <a href="<?=$menu_service['link_item']?>" class="menu__company-list-item-link">
+                                                        <img src="img/<?=$menu_service['menu_icon']?>" class="menu__company-list-img" alt="Иконка">
+                                                        <li class="menu__company-list-item">
+                                                            <?=$menu_service['name_item']?>
+                                                        </li>
+                                                    </a>
+                                                </div>
+                                                <? endforeach; ?>
+                                            </ul>
+                                        </div>
+                                        <!-- end-menu-company -->
                                     </li>
                                     <li class="header__menu-block-list-item">
                                         <a href="/contacts" class="header__menu-block-list-item-link">
@@ -157,40 +191,6 @@
                                 </ul>
                             </nav>
                         </div>
-                        <!-- menu-services -->
-                        <div class="box__menu-services" style="display: none;">
-                            <ul class="menu__services-list">
-                                <?php $menu_services = $viewIndex->viewMenuServices();
-                                foreach($menu_services as $menu_service) :?>
-                                <div class="menu__services-list-block">
-                                    <a href="<?=$menu_service['link_item']?>" class="menu__services-list-item-link">
-                                        <img src="img/<?=$menu_service['menu_icon']?>" class="menu__services-list-img" alt="Иконка">
-                                        <li class="menu__services-list-item">
-                                            <?=$menu_service['name_item']?>
-                                        </li>
-                                    </a>
-                                </div>
-                                <? endforeach; ?>
-                            </ul>
-                        </div>
-                        <!-- end-menu-services -->
-                        <!-- menu-company -->
-                        <div class="box__menu-company" style="display: none;">
-                            <ul class="menu__company-list">
-                                <?php $menu_services = $viewIndex->viewMenuCompany();
-                                foreach($menu_services as $menu_service) :?>
-                                <div class="menu__company-list-block">
-                                    <a href="<?=$menu_service['link_item']?>" class="menu__company-list-item-link">
-                                        <img src="img/<?=$menu_service['menu_icon']?>" class="menu__company-list-img" alt="Иконка">
-                                        <li class="menu__company-list-item">
-                                            <?=$menu_service['name_item']?>
-                                        </li>
-                                    </a>
-                                </div>
-                                <? endforeach; ?>
-                            </ul>
-                        </div>
-                        <!-- end-menu-company -->
                         <div class="header__bth-call-block">
                             <a href="/#call-2-action" class="header__bth-call-block-link upper">
                                 Обратный звонок
